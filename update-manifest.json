@@ -1,11 +1,12 @@
 {
-  "version": "1.1.12.4",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.1.12.4",
+  "version": "1.1.12.5",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.1.12.5",
   "notes": [
-    "Fixed authenticated private GHCR image pulls in the self-updater by sending a correctly padded Docker X-Registry-Auth header.",
-    "Update failures now surface the updater's real Docker/GHCR error instead of only a generic HTTP 500.",
-    "Retains the Configurable Lists card redesign and removal of the top-level Load JSON button.",
-    "No inventory schema changes and no destructive data migration."
+    "Ammo Reserve cards now visualize progress toward each configured caliber target with percentage bars and exact rounds below/over target.",
+    "Reserve progress uses red/orange/yellow/green health states, with configured reorder thresholds overriding percentage health.",
+    "Manufacturer management now includes All / Firearms / Ammunition / Accessories filters plus manufacturer search.",
+    "No inventory schema changes and no destructive data migration.",
+    "Ammo inventory filter lists now include only calibers, manufacturers, and projectile types with positive on-hand quantity."
   ],
   "windows": {
     "packageUrl": "",
