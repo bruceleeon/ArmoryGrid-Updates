@@ -1,12 +1,11 @@
 {
-  "version": "1.1.12.1",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.1.12.1",
+  "version": "1.1.12.2",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.1.12.2",
   "notes": [
-    "Security hardening: session/cookie protections, same-origin POST defense, security headers, safer uploads, SVG disabled, backup validation limits.",
-    "Settings & Administration reorganized into General, Catalogs, Records, Appearance, Security, and Backup & Restore.",
-    "Ammunition inventory now supports search, filtering, and sortable columns.",
-    "Added configurable ARMORY_BIND foundation for localhost-only or LAN binding.",
-    "No destructive database migration; schema remains version 1."
+    "Updater can authenticate to private GHCR images using updater-only read credentials.",
+    "Update pull failures now return clearer registry/authentication errors and are logged by the updater.",
+    "Removed the persistent Password Strength status from Security; live strength guidance remains when changing a password.",
+    "Retains the green update banner, security indicators, manufacturer cards, and color-coded ammunition target alerts."
   ],
   "windows": {
     "packageUrl": "",
