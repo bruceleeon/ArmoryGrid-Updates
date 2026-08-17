@@ -1,10 +1,11 @@
 {
-  "version": "1.1.12.3",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.1.12.3",
+  "version": "1.1.12.4",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.1.12.4",
   "notes": [
-    "Configurable Lists now use responsive management cards consistent with the Manufacturer catalog.",
-    "Removed the legacy Load JSON action from the main toolbar; the underlying import capability is retained for future migration/advanced use.",
-    "This release provides a real-world end-to-end test of the authenticated self-update path introduced in 1.1.12.2."
+    "Fixed authenticated private GHCR image pulls in the self-updater by sending a correctly padded Docker X-Registry-Auth header.",
+    "Update failures now surface the updater's real Docker/GHCR error instead of only a generic HTTP 500.",
+    "Retains the Configurable Lists card redesign and removal of the top-level Load JSON button.",
+    "No inventory schema changes and no destructive data migration."
   ],
   "windows": {
     "packageUrl": "",
