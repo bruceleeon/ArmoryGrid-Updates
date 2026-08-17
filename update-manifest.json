@@ -1,11 +1,13 @@
 {
-  "version": "1.1.12.6",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.1.12.6",
+  "version": "1.1.12.7",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.1.12.7",
   "notes": [
-    "Self-update now shows Update Started immediately and reconnects automatically while ArmoryGrid restarts.",
-    "Successful updates show Update Complete and reload automatically rather than presenting a false timeout.",
-    "Ammo Targets & Reorder Alerts cards now include the same percentage-to-target progress bars used by dashboard Ammo Reserve.",
-    "No inventory schema changes and no destructive data migration."
+    "Dashboard Ammo Reserve cards are significantly more compact while retaining percentage-to-target progress visualization.",
+    "Removed redundant BELOW TARGET text from dashboard reserve rows; color and progress now communicate health at a glance.",
+    "Each reserve row now uses a compact name/rounds line, target context line, and thinner progress bar.",
+    "No inventory schema changes and no destructive data migration.",
+    "Ammo Products now use a compact responsive card grid instead of a long vertical list.",
+    "Ammo Product management now includes search plus stock-backed Caliber, Manufacturer, and Projectile Type filters."
   ],
   "windows": {
     "packageUrl": "",
