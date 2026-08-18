@@ -1,11 +1,13 @@
 {
-  "version": "1.1.12.9",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.1.12.9",
+  "version": "1.1.12.10",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.1.12.10",
   "notes": [
-    "Added real stage-based self-update progress with honest milestone percentages and update status text.",
-    "Fixed false timeout failures by acknowledging the update immediately and polling updater/health state independently.",
-    "Dashboard Ammo Reserve now uses two columns on wider screens and automatically returns to one column on narrow displays.",
-    "Added manual Check for Updates controls.",
+    "Armory now includes synchronized Manufacturer, Firearm Type, Caliber, and Owner filters populated only from firearms actually in inventory.",
+    "Added a horizontal manufacturer quick-filter strip using configured manufacturer logos, with text fallback when no logo exists.",
+    "Clicking a manufacturer logo filters the Armory; clicking the selected logo again clears that manufacturer filter.",
+    "Search combines with all Armory filters and works in both Cards and Detailed views.",
+    "Added Clear filters and a live total-versus-shown summary.",
+    "Updater code is unchanged from 1.1.12.9 so this release cleanly tests the new stage-based update progress flow.",
     "No destructive data migration."
   ],
   "windows": {
