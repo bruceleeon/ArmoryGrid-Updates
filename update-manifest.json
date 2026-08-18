@@ -1,12 +1,13 @@
 {
-  "version": "1.2.4",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.4",
+  "version": "1.2.5",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.5",
   "notes": [
-    "Adds the React-native Firearms page based on the approved image-forward mockup.",
-    "Firearms page includes search, manufacturer/caliber/type/status/storage filters, sorting, card/table views, live photos, storage, record-readiness indicators, and a right-side firearm detail drawer.",
-    "Dashboard View All Firearms and firearm-related destinations now land on the React Firearms page.",
-    "UI terminology displays legacy Handgun records as Pistol while preserving stored data compatibility.",
-    "Edit/Add/Archive remain linked to the legacy interface until React forms are migrated.",
+    "Functional React pass: Settings, Ammunition and Maintenance are now native React pages alongside Dashboard, Firearms and Range Sessions.",
+    "Settings adds Light/Dark/System themes, persistent theme preference, update checks/notification/install progress, and full backup/restore.",
+    "Firearms Add/Edit/Archive are now React-native; firearm drawers close by X, Escape, or clicking the backdrop.",
+    "React update discovery runs on application load and every five minutes with a visible Update Available banner.",
+    "Ammunition adds reserve status, summary metrics, search/filtering and inventory/product table; Add Ammunition remains bridged temporarily.",
+    "Maintenance adds summary metrics, history table and React add/edit maintenance form.",
     "No destructive data migration."
   ],
   "windows": {
