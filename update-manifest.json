@@ -1,14 +1,13 @@
 {
-  "version": "1.1.12.10",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.1.12.10",
+  "version": "1.1.12.11",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.1.12.11",
   "notes": [
-    "Armory now includes synchronized Manufacturer, Firearm Type, Caliber, and Owner filters populated only from firearms actually in inventory.",
-    "Added a horizontal manufacturer quick-filter strip using configured manufacturer logos, with text fallback when no logo exists.",
-    "Clicking a manufacturer logo filters the Armory; clicking the selected logo again clears that manufacturer filter.",
-    "Search combines with all Armory filters and works in both Cards and Detailed views.",
-    "Added Clear filters and a live total-versus-shown summary.",
-    "Updater code is unchanged from 1.1.12.9 so this release cleanly tests the new stage-based update progress flow.",
-    "No destructive data migration."
+    "Updater monitoring no longer treats transient updater/progress timeouts or restart disconnects as immediate failures; it keeps watching for the target version for up to three minutes.",
+    "Manual Check for Updates now shows a visible checking state and forces a fresh no-cache manifest request.",
+    "Dashboard Ammo Reserve now places quantity directly below caliber while retaining the two-column layout and progress visualization.",
+    "Fixed deletion of unused seeded manufacturers such as Blazer by persisting a hidden-seeded-manufacturer preference; normal reference protections remain intact.",
+    "Manufacturer logo controls now explicitly document WEBP support alongside PNG, JPG/JPEG, and GIF.",
+    "No destructive database migration."
   ],
   "windows": {
     "packageUrl": "",
