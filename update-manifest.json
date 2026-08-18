@@ -1,13 +1,15 @@
 {
-  "version": "1.2.5",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.5",
+  "version": "1.2.6",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.6",
   "notes": [
-    "Functional React pass: Settings, Ammunition and Maintenance are now native React pages alongside Dashboard, Firearms and Range Sessions.",
-    "Settings adds Light/Dark/System themes, persistent theme preference, update checks/notification/install progress, and full backup/restore.",
-    "Firearms Add/Edit/Archive are now React-native; firearm drawers close by X, Escape, or clicking the backdrop.",
-    "React update discovery runs on application load and every five minutes with a visible Update Available banner.",
-    "Ammunition adds reserve status, summary metrics, search/filtering and inventory/product table; Add Ammunition remains bridged temporarily.",
-    "Maintenance adds summary metrics, history table and React add/edit maintenance form.",
+    "Responsive mobile shell: off-canvas navigation, tap-outside close, full-width content/drawers, responsive cards/forms/tables across React pages.",
+    "Redesigned React Storage uses storage cards and drill-in drawers instead of rendering every container on the main page.",
+    "Firearm drawer adds manufacturer profile/logo, compatible ammunition totals/products, Barrel Length and Sights.",
+    "Firearm gallery adds navigation, upload, set-primary, delete and lightbox controls.",
+    "Firearm editor adds Action, Finish, Barrel Length and Sights.",
+    "React Settings adds branding, reserve-target and manufacturer administration.",
+    "Dark-mode button colors are normalized globally.",
+    "Ammunition caliber filter now shows only calibers with quantity on hand.",
     "No destructive data migration."
   ],
   "windows": {
