@@ -11,7 +11,8 @@
     "Restores Reset Colors and Reset All Appearance controls.",
     "Dashboard firearm cards open the selected firearm directly; Reserve by Caliber rows open Ammunition prefiltered to that caliber.",
     "Ammunition KPI row now emphasizes rounds on hand, total reserve coverage, caliber target status, and container count.",
-    "No destructive data migration."
+    "No destructive data migration.",
+    "Hardens bundled cartridge image filenames for Windows/ZIP/build compatibility by removing leading dots from asset filenames while preserving caliber display names."
   ],
   "windows": {
     "packageUrl": "",
