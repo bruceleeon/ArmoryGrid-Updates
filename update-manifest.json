@@ -1,18 +1,16 @@
 {
-  "version": "1.2.7",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.7",
+  "version": "1.2.8",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.8",
   "notes": [
-    "Core relationship and UI polish release: Accessories is now React-native with quantity, many-to-many firearm compatibility, and magazine allocation.",
-    "Settings is reorganized into expandable submenus for Appearance & Branding, Ammunition Settings, Manufacturers, Backup & Restore, Updates, Security & Access, Application Settings, and Advanced.",
-    "Appearance & Branding now includes logo/background uploads, dim/blur controls, full color palette controls, and reset options; user SVG uploads remain blocked.",
-    "Advanced Settings includes the administrator permanent-deletion control under Data Protection.",
-    "Firearm cards now show manufacturer above model, readable photo/document/readiness footer labels, and Dashboard firearm cards open the firearm detail drawer.",
-    "Firearm gallery uses full-image contain behavior, photo actions moved into an image menu, and floating gallery buttons were removed.",
-    "Firearm drawer now derives compatible magazine quantity/allocation from Accessories relationships.",
-    "Ammunition KPI cards now emphasize total rounds, overall reserve coverage, caliber status and container count; Reserve by Caliber includes consistent cartridge visuals.",
-    "Application-wide icons now use one built-in SVG design system with a few ArmoryGrid-specific domain icons.",
-    "Maintenance editing now includes round count at service. Reports remain intentionally deferred until core React workflows are complete.",
-    "No destructive data migration."
+    "v1.2.8 stabilization: dashboard KPI cards and reserve rows are interactive.",
+    "Fixes Out of Armory text collision and adds semantic readiness/reserve status colors.",
+    "Adds caliber-specific bundled cartridge PNG assets to Reserve by Caliber.",
+    "Completes React branding propagation for logo, tagline, app name, sidebar/page/panel/text colors and background.",
+    "Manufacturer logos now use upload/replace/remove controls instead of raw logo paths.",
+    "Fixes Security Check rendering of password-strength objects.",
+    "Application Settings configurable-list cards are now editable.",
+    "Advanced Settings includes Allow Permanent Deletion data-protection control.",
+    "Updater workflow is unchanged."
   ],
   "windows": {
     "packageUrl": "",
