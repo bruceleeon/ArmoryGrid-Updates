@@ -1,13 +1,12 @@
 {
-  "version": "1.1.12.11",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.1.12.11",
+  "version": "1.2.0",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.0",
   "notes": [
-    "Updater monitoring no longer treats transient updater/progress timeouts or restart disconnects as immediate failures; it keeps watching for the target version for up to three minutes.",
-    "Manual Check for Updates now shows a visible checking state and forces a fresh no-cache manifest request.",
-    "Dashboard Ammo Reserve now places quantity directly below caliber while retaining the two-column layout and progress visualization.",
-    "Fixed deletion of unused seeded manufacturers such as Blazer by persisting a hidden-seeded-manufacturer preference; normal reference protections remain intact.",
-    "Manufacturer logo controls now explicitly document WEBP support alongside PNG, JPG/JPEG, and GIF.",
-    "No destructive database migration."
+    "React + TypeScript + Vite frontend foundation with the existing Python backend and persistent data model retained.",
+    "New expandable dark sidebar and responsive ArmoryGrid 1.2 design system.",
+    "Range Sessions 2.0: metrics, filters, clickable session history, detail drawer, multi-firearm sessions, per-firearm round counts, ammunition selection, and optional inventory deduction.",
+    "The existing 1.1 interface remains available at /legacy during progressive page migration.",
+    "No destructive data migration."
   ],
   "windows": {
     "packageUrl": "",
