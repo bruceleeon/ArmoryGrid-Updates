@@ -1,10 +1,12 @@
 {
-  "version": "1.2.3",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.3",
+  "version": "1.2.4",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.4",
   "notes": [
-    "Rebuilt Dashboard to match the approved Command Center mockup using live ArmoryGrid data.",
-    "Adds four KPI cards, six-firearm photo strip, collection insights, reserve-by-caliber table, needs-attention, out-of-armory and recent activity panels.",
-    "Adds sidebar version/user footer and Memberships roadmap destination.",
+    "Adds the React-native Firearms page based on the approved image-forward mockup.",
+    "Firearms page includes search, manufacturer/caliber/type/status/storage filters, sorting, card/table views, live photos, storage, record-readiness indicators, and a right-side firearm detail drawer.",
+    "Dashboard View All Firearms and firearm-related destinations now land on the React Firearms page.",
+    "UI terminology displays legacy Handgun records as Pistol while preserving stored data compatibility.",
+    "Edit/Add/Archive remain linked to the legacy interface until React forms are migrated.",
     "No destructive data migration."
   ],
   "windows": {
