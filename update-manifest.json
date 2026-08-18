@@ -1,11 +1,10 @@
 {
-  "version": "1.2.0",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.0",
+  "version": "1.2.3",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.3",
   "notes": [
-    "React + TypeScript + Vite frontend foundation with the existing Python backend and persistent data model retained.",
-    "New expandable dark sidebar and responsive ArmoryGrid 1.2 design system.",
-    "Range Sessions 2.0: metrics, filters, clickable session history, detail drawer, multi-firearm sessions, per-firearm round counts, ammunition selection, and optional inventory deduction.",
-    "The existing 1.1 interface remains available at /legacy during progressive page migration.",
+    "Rebuilt Dashboard to match the approved Command Center mockup using live ArmoryGrid data.",
+    "Adds four KPI cards, six-firearm photo strip, collection insights, reserve-by-caliber table, needs-attention, out-of-armory and recent activity panels.",
+    "Adds sidebar version/user footer and Memberships roadmap destination.",
     "No destructive data migration."
   ],
   "windows": {
