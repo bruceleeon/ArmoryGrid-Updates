@@ -1,13 +1,13 @@
 {
-  "version": "1.1.12.7",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.1.12.7",
+  "version": "1.1.12.8",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.1.12.8",
   "notes": [
-    "Dashboard Ammo Reserve cards are significantly more compact while retaining percentage-to-target progress visualization.",
-    "Removed redundant BELOW TARGET text from dashboard reserve rows; color and progress now communicate health at a glance.",
-    "Each reserve row now uses a compact name/rounds line, target context line, and thinner progress bar.",
-    "No inventory schema changes and no destructive data migration.",
-    "Ammo Products now use a compact responsive card grid instead of a long vertical list.",
-    "Ammo Product management now includes search plus stock-backed Caliber, Manufacturer, and Projectile Type filters."
+    "People can now have locally uploaded profile photos (PNG, JPG/JPEG, GIF, or WebP).",
+    "Optional per-person Gravatar support is opt-in and used only when no local profile photo exists.",
+    "People without a photo use a polished initials avatar fallback.",
+    "Profile avatars appear in the People list and Person detail view.",
+    "Updater code is unchanged from 1.1.12.7 so this release can validate the new self-update/reconnect flow.",
+    "No destructive data migration."
   ],
   "windows": {
     "packageUrl": "",
