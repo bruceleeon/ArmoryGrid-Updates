@@ -1,16 +1,17 @@
 {
-  "version": "1.2.8",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.8",
+  "version": "1.2.9",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.9",
   "notes": [
-    "v1.2.8 stabilization: dashboard KPI cards and reserve rows are interactive.",
-    "Fixes Out of Armory text collision and adds semantic readiness/reserve status colors.",
-    "Adds caliber-specific bundled cartridge PNG assets to Reserve by Caliber.",
-    "Completes React branding propagation for logo, tagline, app name, sidebar/page/panel/text colors and background.",
-    "Manufacturer logos now use upload/replace/remove controls instead of raw logo paths.",
-    "Fixes Security Check rendering of password-strength objects.",
-    "Application Settings configurable-list cards are now editable.",
-    "Advanced Settings includes Allow Permanent Deletion data-protection control.",
-    "Updater workflow is unchanged."
+    "v1.2.9 stabilization: fixes backend/frontend version drift and adds build-time version consistency validation.",
+    "Update banner View Update now deep-links directly to Settings \u2192 Updates.",
+    "Updater reconnect detection now allows five minutes, reconciles the installed version before declaring failure, and avoids false-negative timeout messaging.",
+    "Restores professional built-in SVG iconography across navigation, dashboard KPIs, insights, and firearm card indicators.",
+    "Fixes cartridge assets in production by copying the complete Vite dist, including public cartridge files; replaces generic cartridge silhouettes with caliber-specific raster artwork.",
+    "Removes floating firearm gallery actions; photo primary/delete actions now live in a menu on the gallery image.",
+    "Restores Reset Colors and Reset All Appearance controls.",
+    "Dashboard firearm cards open the selected firearm directly; Reserve by Caliber rows open Ammunition prefiltered to that caliber.",
+    "Ammunition KPI row now emphasizes rounds on hand, total reserve coverage, caliber target status, and container count.",
+    "No destructive data migration."
   ],
   "windows": {
     "packageUrl": "",
