@@ -1,18 +1,14 @@
 {
-  "version": "1.2.9",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.9",
+  "version": "1.2.10",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.10",
   "notes": [
-    "v1.2.9 stabilization: fixes backend/frontend version drift and adds build-time version consistency validation.",
-    "Update banner View Update now deep-links directly to Settings \u2192 Updates.",
-    "Updater reconnect detection now allows five minutes, reconciles the installed version before declaring failure, and avoids false-negative timeout messaging.",
-    "Restores professional built-in SVG iconography across navigation, dashboard KPIs, insights, and firearm card indicators.",
-    "Fixes cartridge assets in production by copying the complete Vite dist, including public cartridge files; replaces generic cartridge silhouettes with caliber-specific raster artwork.",
-    "Removes floating firearm gallery actions; photo primary/delete actions now live in a menu on the gallery image.",
-    "Restores Reset Colors and Reset All Appearance controls.",
-    "Dashboard firearm cards open the selected firearm directly; Reserve by Caliber rows open Ammunition prefiltered to that caliber.",
-    "Ammunition KPI row now emphasizes rounds on hand, total reserve coverage, caliber target status, and container count.",
-    "No destructive data migration.",
-    "Hardens bundled cartridge image filenames for Windows/ZIP/build compatibility by removing leading dots from asset filenames while preserving caliber display names."
+    "Range Sessions redesigned to match the visual concept that started the React redesign: visual session cards, firearm photos, round totals, ammunition chips, filters, visual add/edit form, and richer session drawer.",
+    "Firearm drawer tabs are functional: Overview, Details, Maintenance, and Documents now render meaningful firearm-specific content.",
+    "Firearm card action menu is functional with View Details, Edit Firearm, and Archive Firearm.",
+    "Reserve-by-Caliber card accent now uses the exact same centralized status tone as its progress bar.",
+    "Firearm card footer retains meaningful photo/document/readiness icons and semantic readiness color.",
+    "Adds roadmap documentation for a future image-processing pipeline: original preservation, EXIF normalization, WebP derivatives, metadata, and context-appropriate image sizes.",
+    "No destructive data migration."
   ],
   "windows": {
     "packageUrl": "",
