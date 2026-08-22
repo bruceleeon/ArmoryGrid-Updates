@@ -1,14 +1,13 @@
 {
-  "version": "1.2.15",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.15",
+  "version": "1.2.16",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.16",
   "notes": [
-    "Fixes dark-mode contrast across Firearms, firearm caliber summary, Range Sessions, Settings landing cards, configurable-list cards, drawers and editors.",
-    "Adds the ArmoryGrid image derivative pipeline with preserved original upload plus WebP thumb (320), card (720), drawer (1400), and large (2200) variants.",
-    "Existing images are backfilled automatically on startup; new uploads and replacements generate derivatives immediately.",
-    "Dashboard, firearm cards, Range Sessions, Media Library, image pickers and firearm image editor now request context-appropriate image sizes instead of full-resolution originals.",
-    "Adds physical 90-degree Rotate Left / Rotate Right operations in Media Library and firearm image editing; derivatives are regenerated after rotation.",
-    "Normalizes EXIF orientation while preserving the pristine uploaded file in the image sidecar store.",
-    "Adds no-cache revalidation for media so rotated/replaced images refresh correctly.",
+    "Stabilizes dark mode across Dashboard firearm cards, Collection Insights, shared icon chips, Settings cards, caliber cards and Range Sessions.",
+    "Improves image rotation UX with Rotating status, success confirmation, in-place drawer refresh, and cache-busted media updates without browser force refresh.",
+    "Adds shared searchable PersonSelector and uses it in Range Sessions, Documents, and supported person-assignment workflows.",
+    "Extracts Range Sessions from main.tsx into standalone RangeSessionsPage.tsx.",
+    "Migrates Documents from Legacy into standalone DocumentsPage.tsx with person credentials, firearm documents, search/filter, upload and expiration visibility.",
+    "Adds updater diagnostics, Last Checked time/source, and Test Update System for manifest/updater health.",
     "No destructive data migration."
   ],
   "windows": {
