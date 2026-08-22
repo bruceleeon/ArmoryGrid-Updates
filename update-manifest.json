@@ -1,12 +1,11 @@
 {
-  "version": "1.2.13",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.13",
+  "version": "1.2.14",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.14",
   "notes": [
-    "Restores the full Legacy Media Gallery as a modular React Media Library under Settings / Administration.",
-    "Media Library supports upload from PC, browse/search/filter, reference visibility, attach or reassign images to firearms, Main Photo/Other roles, replace image, and physical delete with reference warning.",
-    "Reuses the same media service introduced for Appearance & Branding so branding and firearm assignment share one media subsystem.",
-    "Adds Media Library to the Settings submenu and Settings landing page.",
-    "Continues modularization with a standalone MediaLibraryPage rather than adding gallery management back into main.tsx.",
+    "Adds modular firearm image assignment directly to Add/Edit Firearm.",
+    "Edit Firearm can choose an existing image from the central Media Library or upload a new image.",
+    "Assigned firearm images can be marked Main Photo or removed from the firearm without deleting the physical media file.",
+    "Reuses the shared media service and central Media Library rather than duplicating gallery logic inside Firearms.",
     "No destructive data migration."
   ],
   "windows": {
