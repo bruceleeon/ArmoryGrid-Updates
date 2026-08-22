@@ -1,14 +1,12 @@
 {
-  "version": "1.2.12",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.12",
+  "version": "1.2.13",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.13",
   "notes": [
-    "Extracts Appearance & Branding into its own modular React page, continuing the incremental architecture transition away from main.tsx.",
-    "Repairs appearance persistence with explicit Saved / Unsaved / Saving / Error state and synchronization from persisted settings.",
-    "Restores a reusable media gallery for choosing existing logos and background images, with upload-new support.",
-    "Adds built-in appearance presets (ArmoryGrid Default, Dark Armory, Slate, Light, High Contrast) plus Save Current as Preset and delete custom preset.",
-    "Separates application identity (name, tagline, logo, background) from color/theme presets so changing themes does not overwrite branding identity.",
-    "Adds reusable media service, MediaPicker, ThemePresetPicker and branding utility modules for future pages.",
-    "Fixes stale hard-coded version text in Settings > Updates.",
+    "Restores the full Legacy Media Gallery as a modular React Media Library under Settings / Administration.",
+    "Media Library supports upload from PC, browse/search/filter, reference visibility, attach or reassign images to firearms, Main Photo/Other roles, replace image, and physical delete with reference warning.",
+    "Reuses the same media service introduced for Appearance & Branding so branding and firearm assignment share one media subsystem.",
+    "Adds Media Library to the Settings submenu and Settings landing page.",
+    "Continues modularization with a standalone MediaLibraryPage rather than adding gallery management back into main.tsx.",
     "No destructive data migration."
   ],
   "windows": {
