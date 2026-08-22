@@ -1,13 +1,12 @@
 {
-  "version": "1.2.10",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.10",
+  "version": "1.2.11",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.11",
   "notes": [
-    "Range Sessions redesigned to match the visual concept that started the React redesign: visual session cards, firearm photos, round totals, ammunition chips, filters, visual add/edit form, and richer session drawer.",
-    "Firearm drawer tabs are functional: Overview, Details, Maintenance, and Documents now render meaningful firearm-specific content.",
-    "Firearm card action menu is functional with View Details, Edit Firearm, and Archive Firearm.",
-    "Reserve-by-Caliber card accent now uses the exact same centralized status tone as its progress bar.",
-    "Firearm card footer retains meaningful photo/document/readiness icons and semantic readiness color.",
-    "Adds roadmap documentation for a future image-processing pipeline: original preservation, EXIF normalization, WebP derivatives, metadata, and context-appropriate image sizes.",
+    "Begins incremental frontend modularization: shared reserve logic moved to utils, reusable caliber-count UI moved to components, and People is now a standalone page module.",
+    "Completes People migration from Legacy with searchable directory and add/edit workflow.",
+    "Adds Firearms by Caliber cards; selecting a caliber filters the collection.",
+    "Constrains firearm three-dot controls to card boundaries.",
+    "Repairs Add Range Session interaction with a dedicated opener and explicit action-button semantics.",
     "No destructive data migration."
   ],
   "windows": {
