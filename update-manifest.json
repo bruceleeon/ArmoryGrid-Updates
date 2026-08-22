@@ -1,12 +1,14 @@
 {
-  "version": "1.2.11",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.11",
+  "version": "1.2.12",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.12",
   "notes": [
-    "Begins incremental frontend modularization: shared reserve logic moved to utils, reusable caliber-count UI moved to components, and People is now a standalone page module.",
-    "Completes People migration from Legacy with searchable directory and add/edit workflow.",
-    "Adds Firearms by Caliber cards; selecting a caliber filters the collection.",
-    "Constrains firearm three-dot controls to card boundaries.",
-    "Repairs Add Range Session interaction with a dedicated opener and explicit action-button semantics.",
+    "Extracts Appearance & Branding into its own modular React page, continuing the incremental architecture transition away from main.tsx.",
+    "Repairs appearance persistence with explicit Saved / Unsaved / Saving / Error state and synchronization from persisted settings.",
+    "Restores a reusable media gallery for choosing existing logos and background images, with upload-new support.",
+    "Adds built-in appearance presets (ArmoryGrid Default, Dark Armory, Slate, Light, High Contrast) plus Save Current as Preset and delete custom preset.",
+    "Separates application identity (name, tagline, logo, background) from color/theme presets so changing themes does not overwrite branding identity.",
+    "Adds reusable media service, MediaPicker, ThemePresetPicker and branding utility modules for future pages.",
+    "Fixes stale hard-coded version text in Settings > Updates.",
     "No destructive data migration."
   ],
   "windows": {
