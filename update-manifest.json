@@ -1,11 +1,11 @@
 {
-  "version": "1.3.0-alpha.23",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.23",
+  "version": "1.3.0-alpha.24",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.24",
   "notes": [
-    "Makes the sidebar collection-scope selector structurally unique so duplicate Viewing controls cannot remain visible.",
-    "Archiving an accessory now closes active firearm assignments immediately, and firearm views ignore archived accessories including legacy stale relationships.",
-    "Adds Archived Accessories management with Restore and optional Permanent Delete actions.",
-    "Generalizes Allow Permanent Deletion so the admin control applies to accessory archive cleanup while preserving the prior setting for backward compatibility.",
+    "Moves firearm collection cards to the 320px WebP thumbnail derivative instead of larger card/original imagery.",
+    "Uses 1400px drawer and 2200px lightbox derivatives while preserving the original upload as the master file.",
+    "Adds native lazy loading and asynchronous image decoding to firearm cards and media gallery thumbnails.",
+    "Uses the existing media backfill pipeline so older firearm uploads automatically receive generated derivatives.",
     "No destructive data migration."
   ],
   "windows": {
