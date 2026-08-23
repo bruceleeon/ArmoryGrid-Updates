@@ -1,11 +1,11 @@
 {
-  "version": "1.3.0-alpha.19",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.19",
+  "version": "1.3.0-alpha.20",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.20",
   "notes": [
-    "Finishes the Dashboard WOW redesign with proper ArmoryGrid surfaces, borders, depth, typography and interaction polish.",
-    "Uses actual firearm type proportions in the collection chart and derives recent activity from real firearm, ammunition, maintenance and range records when the legacy activity feed is sparse.",
-    "Fixes the bottom Viewing people selector so its menu opens upward, remains visible, and clearly shows the selected collection scope.",
-    "Repairs firearm card and table readability in light mode with explicit light-theme text and metadata contrast.",
+    "Adds Guided Firearm Setup for new and existing firearms, including magazine quantity, dedicated/shared/unknown usage, compatibility selection, and quick creation of other related gear.",
+    "Rerunning Guided Setup recognizes existing magazine inventory and asks for additional magazines instead of blindly duplicating records.",
+    "Shared magazines create or reuse compatibility relationships while dedicated magazines stay assigned to the selected firearm.",
+    "Tightens Ammunition reserve-card artwork spacing and enlarges the horizontal cartridge image without increasing card height.",
     "No destructive data migration."
   ],
   "windows": {
