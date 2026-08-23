@@ -1,12 +1,12 @@
 {
-  "version": "1.3.0-alpha.29",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.29",
+  "version": "1.3.0-alpha.30",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.30",
   "notes": [
-    "Adds a global Archived Items page for archived firearms and accessories with restore and permanent-delete controls.",
-    "Makes Allow Permanent Deletion expose Delete Permanently directly on firearm and accessory detail actions as well as in the archive center.",
-    "Expands Guided Firearm Setup into a full six-step journey covering manufacturer, model, serial, type, caliber, ownership, storage, photos, magazines, compatibility and other gear.",
-    "Allows switching between Manual and Guided firearm setup without losing entered values; both modes write the same firearm record.",
-    "No destructive data migration."
+    "Adds native Reports for collection, firearms, ammunition reserve, accessories, maintenance/range activity and insurance/value reporting with print/PDF-friendly output and CSV exports.",
+    "Adds Media Library derivative repair with original-image fallback, missing/corrupt derivative detection, rebuild progress/results and original/optimized/total storage accounting.",
+    "Retires normal legacy UI handoffs: Reports is native, frontend legacy links are removed and the /legacy route and legacy.html asset are removed.",
+    "Reports honor the active Viewing scope for firearm inventory and respect the serial-number privacy setting.",
+    "No destructive collection-data migration."
   ],
   "windows": {
     "packageUrl": "",
