@@ -1,10 +1,11 @@
 {
-  "version": "1.3.0-alpha.21",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.21",
+  "version": "1.3.0-alpha.22",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.22",
   "notes": [
-    "Fixes Dashboard readability in light mode with explicit light-theme panel, text, alert, activity, overview and readiness colors while preserving the dark high-contrast hero.",
-    "Removes duplicate/stale sidebar Viewing identity controls so only one collection-scope selector is visible.",
-    "Preserves Guided Firearm Setup and all alpha.20 functionality.",
+    "Completes People and login-account management with optional person-linked application accounts.",
+    "Adds admin Users & Access management for username, linked person, role, account status, password strength and password reset.",
+    "Adds My Account with visible username/role/person linkage and self-service password changes for all authenticated users.",
+    "Separates sidebar collection Viewing scope from the Signed In As account identity.",
     "No destructive data migration."
   ],
   "windows": {
