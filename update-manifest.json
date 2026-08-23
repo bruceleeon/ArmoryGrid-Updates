@@ -1,11 +1,9 @@
 {
-  "version": "1.3.0-alpha.13",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.13",
+  "version": "1.3.0-alpha.14",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.14",
   "notes": [
-    "Completes the current-UI Ammunition workflow so Add Ammunition no longer opens Legacy.",
-    "Reserve caliber cards are clickable filters again, with selected-state feedback and click-again-to-clear behavior.",
-    "Ammo table rows now open a current-style product drawer with lot and storage details.",
-    "Adds React-native Add Ammunition, Edit Product and Add Lot workflows with ammunition-capable manufacturer filtering.",
+    "Restores caliber cartridge artwork to Ammunition reserve cards.",
+    "Repositions cartridge artwork horizontally across the top hero/gradient area while preserving the new reserve card layout and click behavior.",
     "No destructive data migration."
   ],
   "windows": {
