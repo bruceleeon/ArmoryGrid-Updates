@@ -1,11 +1,11 @@
 {
-  "version": "1.3.0-alpha.24",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.24",
+  "version": "1.3.0-alpha.25",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.25",
   "notes": [
-    "Moves firearm collection cards to the 320px WebP thumbnail derivative instead of larger card/original imagery.",
-    "Uses 1400px drawer and 2200px lightbox derivatives while preserving the original upload as the master file.",
-    "Adds native lazy loading and asynchronous image decoding to firearm cards and media gallery thumbnails.",
-    "Uses the existing media backfill pipeline so older firearm uploads automatically receive generated derivatives.",
+    "Rebuilds the Dashboard to match the approved showcase mockup: typography, spacing, panel density, readiness rings, alert severity colors, collection graphs, activity rows and quick actions.",
+    "Replaces live collection photos in the dashboard hero with purpose-built static ArmoryGrid showcase artwork so the composition remains consistent for every collection.",
+    "Makes the dashboard a deliberate dark showcase surface in both Dark and Light appearance modes while leaving the rest of the application theme-aware.",
+    "Makes the sidebar collection Viewing selector structurally unique and adds a defensive CSS rule so duplicate Viewing controls cannot render.",
     "No destructive data migration."
   ],
   "windows": {
