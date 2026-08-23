@@ -1,11 +1,11 @@
 {
-  "version": "1.3.0-alpha.10",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.10",
+  "version": "1.3.0-alpha.11",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.11",
   "notes": [
-    "Fixes serial-number privacy in the Firearm overview drawer where one quick-info field was still rendering the raw serial.",
-    "Strengthens the blurred serial treatment so short serial numbers are clearly unreadable until clicked.",
-    "Serial privacy remains optional in Settings > Advanced; disabling it shows clear text normally.",
-    "Preserves alpha.9 Accessories migration and all prior 1.3 alpha functionality.",
+    "Add/Edit Firearm manufacturer dropdown now only shows manufacturers marked as firearm-capable.",
+    "Legacy firearm manufacturers without capability metadata remain visible when already referenced by a firearm record.",
+    "Ammunition-only manufacturers no longer clutter the Firearm manufacturer selector.",
+    "Preserves serial privacy, Accessories migration, Storage and Ammunition visual updates from prior 1.3 alphas.",
     "No destructive data migration."
   ],
   "windows": {
