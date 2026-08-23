@@ -1,11 +1,10 @@
 {
-  "version": "1.3.0-alpha.3",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.3",
+  "version": "1.3.0-alpha.4",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.4",
   "notes": [
-    "Firearms visual redesign now matches the approved ArmoryGrid Apple-style mockup with premium dark surfaces, tighter hierarchy and polished controls.",
-    "Caliber count cards are redesigned as compact Apple-like metric tiles while remaining clickable filters.",
-    "Firearms retains both Card and Table views with refined cards, table styling, toolbar and responsive layout.",
-    "Global sidebar navigation is cleaner and more compact with improved spacing, selection treatment and visual hierarchy.",
+    "Structural Firearms UI redesign matching the approved mockup: standalone Apple-style caliber metric rail, compact command bar, denser premium cards and cleaner table treatment.",
+    "Replaces grouped sidebar navigation with the approved flat compact navigation model for faster direct access.",
+    "Preserves Firearms Card and Table views and existing operational workflows.",
     "No destructive data migration."
   ],
   "windows": {
