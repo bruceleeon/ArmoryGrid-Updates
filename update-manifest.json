@@ -1,11 +1,11 @@
 {
-  "version": "1.3.0-alpha.9",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.9",
+  "version": "1.3.0-alpha.10",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.10",
   "notes": [
-    "Accessories moves from legacy into the current ArmoryGrid interface with Cards/Table views, search/filtering, Add/Edit, storage, ownership, values, photos and a modern detail drawer.",
-    "Preserves the legacy accessory assignment-history model while adding simple Assign / Move / Remove firearm workflows and showing assigned accessories in the Firearm drawer.",
-    "Adds an Advanced setting to blur serial numbers until clicked; disabling the setting displays serials normally. Firearms and Accessories use the protected serial treatment.",
-    "Preserves the alpha.8 Storage drawer, alpha.7 Ammunition visuals, alpha.6 Firearms polish and alpha.5 page routing.",
+    "Fixes serial-number privacy in the Firearm overview drawer where one quick-info field was still rendering the raw serial.",
+    "Strengthens the blurred serial treatment so short serial numbers are clearly unreadable until clicked.",
+    "Serial privacy remains optional in Settings > Advanced; disabling it shows clear text normally.",
+    "Preserves alpha.9 Accessories migration and all prior 1.3 alpha functionality.",
     "No destructive data migration."
   ],
   "windows": {
