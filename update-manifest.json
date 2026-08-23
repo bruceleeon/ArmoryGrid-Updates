@@ -1,10 +1,11 @@
 {
-  "version": "1.3.0-alpha.16",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.16",
+  "version": "1.3.0-alpha.17",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.17",
   "notes": [
-    "Repairs light-theme contrast across inventory cards, metric cards, toolbars, tables and drawers.",
-    "Raises the application typography scale for headers, cards, filters, tables, navigation and drawers without increasing layout spacing.",
-    "Preserves current module density and workflows.",
+    "Adds quantity-based accessory tracking so identical magazines and other bulk accessories can be represented by one record.",
+    "Adds reusable accessory compatibility groups based on firearm models, explicit firearm overrides, and optional per-firearm quantity allocation.",
+    "Preserves dedicated one-accessory-to-one-firearm assignment history for individual accessories.",
+    "Fixes the sidebar Viewing selector with a functional All Users / person menu, persistence, and owner/shared collection filtering.",
     "No destructive data migration."
   ],
   "windows": {
