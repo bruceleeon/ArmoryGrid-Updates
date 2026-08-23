@@ -1,11 +1,11 @@
 {
-  "version": "1.3.0-alpha.7",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.7",
+  "version": "1.3.0-alpha.8",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.8",
   "notes": [
-    "Ammunition page now uses the approved ArmoryGrid premium visual system established on Firearms.",
-    "Caliber reserve cards retain and emphasize the existing cartridge/round imagery as a signature visual element.",
-    "Summary metrics, reserve cards, search/filter controls and the ammunition inventory table receive tighter hierarchy, spacing and surface treatment.",
-    "Preserves alpha.6 Firearms polish and alpha.5 page refresh routing.",
+    "Storage drawer now matches the approved ArmoryGrid Firearms/Ammunition visual system.",
+    "Improves drawer width, header hierarchy, tabs, metric cards, detail rows and edit action treatment.",
+    "Storage firearm/container tabs retain existing functionality with cleaner list surfaces.",
+    "Preserves alpha.7 Ammunition visuals, alpha.6 Firearms polish and alpha.5 page routing.",
     "No destructive data migration."
   ],
   "windows": {
