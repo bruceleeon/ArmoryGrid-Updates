@@ -1,11 +1,11 @@
 {
-  "version": "1.3.0-alpha.22",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.22",
+  "version": "1.3.0-alpha.23",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.23",
   "notes": [
-    "Completes People and login-account management with optional person-linked application accounts.",
-    "Adds admin Users & Access management for username, linked person, role, account status, password strength and password reset.",
-    "Adds My Account with visible username/role/person linkage and self-service password changes for all authenticated users.",
-    "Separates sidebar collection Viewing scope from the Signed In As account identity.",
+    "Makes the sidebar collection-scope selector structurally unique so duplicate Viewing controls cannot remain visible.",
+    "Archiving an accessory now closes active firearm assignments immediately, and firearm views ignore archived accessories including legacy stale relationships.",
+    "Adds Archived Accessories management with Restore and optional Permanent Delete actions.",
+    "Generalizes Allow Permanent Deletion so the admin control applies to accessory archive cleanup while preserving the prior setting for backward compatibility.",
     "No destructive data migration."
   ],
   "windows": {
