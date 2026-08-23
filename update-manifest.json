@@ -1,10 +1,10 @@
 {
-  "version": "1.3.0-alpha.15",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.15",
+  "version": "1.3.0-alpha.16",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.16",
   "notes": [
-    "Tightens Ammunition reserve-card vertical spacing and enlarges horizontal cartridge artwork.",
-    "Adds a Where column to the ammunition grid, derived from each product's inventory lots, containers and storage locations; split inventory displays Multiple locations.",
-    "Preserves reserve-card filters, selected states and current Ammunition workflows.",
+    "Repairs light-theme contrast across inventory cards, metric cards, toolbars, tables and drawers.",
+    "Raises the application typography scale for headers, cards, filters, tables, navigation and drawers without increasing layout spacing.",
+    "Preserves current module density and workflows.",
     "No destructive data migration."
   ],
   "windows": {
