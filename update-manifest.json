@@ -1,11 +1,10 @@
 {
-  "version": "1.3.0-alpha.27",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.27",
+  "version": "1.3.0-alpha.28",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.28",
   "notes": [
-    "Unifies the Dashboard sidebar/navigation shell across every ArmoryGrid section so page changes no longer switch navigation styles.",
-    "Removes the legacy platform-injected Viewing selector and uses one shared scope source and one React Viewing control.",
-    "Replaces the collection-value glyph with a recognizable money icon and redraws the dashboard hero firearm/magazine illustration for clarity.",
-    "Centers the View Collection button contents and corrects its icon/text spacing.",
+    "Adds explicit high-contrast light-mode styling for Firearms caliber summary cards, including labels, counts, metadata and selected states.",
+    "Completes Ammunition light-mode readability across summary metrics, reserve cards, toolbar controls, table headers, rows and storage/location metadata.",
+    "Keeps the existing dark-mode appearance unchanged.",
     "No destructive data migration."
   ],
   "windows": {
