@@ -1,14 +1,12 @@
 {
-  "version": "1.2.16",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.2.16",
+  "version": "1.3.0-alpha.2",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.2",
   "notes": [
-    "Stabilizes dark mode across Dashboard firearm cards, Collection Insights, shared icon chips, Settings cards, caliber cards and Range Sessions.",
-    "Improves image rotation UX with Rotating status, success confirmation, in-place drawer refresh, and cache-busted media updates without browser force refresh.",
-    "Adds shared searchable PersonSelector and uses it in Range Sessions, Documents, and supported person-assignment workflows.",
-    "Extracts Range Sessions from main.tsx into standalone RangeSessionsPage.tsx.",
-    "Migrates Documents from Legacy into standalone DocumentsPage.tsx with person credentials, firearm documents, search/filter, upload and expiration visibility.",
-    "Adds updater diagnostics, Last Checked time/source, and Test Update System for manifest/updater health.",
-    "No destructive data migration."
+    "Firearms progressive UX alpha: Glance cards prioritize image, identity, caliber, location, ownership and armory status.",
+    "Firearm drawer adds an operational Use layer for ownership, custody, home location and Take Out / Return actions while existing deep tabs remain available.",
+    "Adds explicit Person / Shared firearm ownership editing; custody remains separate and records an internal custody history.",
+    "Firearms module now owns reusable glance presentation and dashboard summary logic as modularization continues.",
+    "Development alpha; public updater publication remains separate."
   ],
   "windows": {
     "packageUrl": "",
