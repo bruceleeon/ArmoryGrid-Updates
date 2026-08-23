@@ -1,11 +1,11 @@
 {
-  "version": "1.3.0-alpha.26",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.26",
+  "version": "1.3.0-alpha.27",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.27",
   "notes": [
-    "Fixes slow firearm image paint by allowing versioned WebP derivatives to remain in the private browser cache instead of forcing revalidation on every request.",
-    "Adds a stable media revision query key so changed images automatically receive a fresh URL while unchanged thumbnails remain cacheable.",
-    "Loads firearm collection thumbnails eagerly so visible cards request their 320px derivatives immediately instead of waiting on lazy-load scheduling.",
-    "Keeps unversioned media on a short private cache window and preserves authentication requirements.",
+    "Unifies the Dashboard sidebar/navigation shell across every ArmoryGrid section so page changes no longer switch navigation styles.",
+    "Removes the legacy platform-injected Viewing selector and uses one shared scope source and one React Viewing control.",
+    "Replaces the collection-value glyph with a recognizable money icon and redraws the dashboard hero firearm/magazine illustration for clarity.",
+    "Centers the View Collection button contents and corrects its icon/text spacing.",
     "No destructive data migration."
   ],
   "windows": {
