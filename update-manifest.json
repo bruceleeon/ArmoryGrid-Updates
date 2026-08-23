@@ -1,11 +1,11 @@
 {
-  "version": "1.3.0-alpha.11",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.11",
+  "version": "1.3.0-alpha.12",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.12",
   "notes": [
-    "Add/Edit Firearm manufacturer dropdown now only shows manufacturers marked as firearm-capable.",
-    "Legacy firearm manufacturers without capability metadata remain visible when already referenced by a firearm record.",
-    "Ammunition-only manufacturers no longer clutter the Firearm manufacturer selector.",
-    "Preserves serial privacy, Accessories migration, Storage and Ammunition visual updates from prior 1.3 alphas.",
+    "Unifies Ammunition and Accessories card visuals with the approved Firearms design system.",
+    "Ammunition reserve cards now use Firearms-style card proportions while preserving cartridge artwork as the hero visual.",
+    "Accessories cards now match Firearms card geometry, status treatment, typography, spacing, depth and hover behavior.",
+    "Normalizes headers, metric cards, toolbars, tables and drawer surfaces across Firearms, Ammunition and Accessories.",
     "No destructive data migration."
   ],
   "windows": {
