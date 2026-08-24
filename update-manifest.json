@@ -1,12 +1,12 @@
 {
-  "version": "1.3.0-alpha.38",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.38",
+  "version": "1.3.0-alpha.39",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.39",
   "notes": [
-    "Replaces the broken Dashboard hero artwork with the approved collection hero image.",
-    "Increases Collection Overview typography for improved readability.",
-    "Enlarges ammunition cartridge artwork and reduces unused image-card padding.",
-    "Keeps Ammunition by Caliber focused on the top 8 calibers by rounds on hand.",
-    "Cleans up obsolete Dashboard hero assets and release validation plumbing."
+    "Introduces reusable section heroes on Firearms and Ammunition.",
+    "Rebrands the application UI to AIMS — Arsenal Inventory Management System while retaining existing repository and infrastructure names.",
+    "Adds a new default AIMS logo and ammunition-specific hero artwork.",
+    "Adds firearm thumbnails and quick Edit, Duplicate, and Details actions to the Firearms table view.",
+    "Keeps existing filters, guided firearm setup, reserve status, and card/table workflows intact."
   ],
   "windows": {
     "packageUrl": "",
