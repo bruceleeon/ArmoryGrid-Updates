@@ -1,11 +1,11 @@
 {
-  "version": "1.3.0-alpha.32",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.32",
+  "version": "1.3.0-alpha.33",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.33",
   "notes": [
-    "Fixes permanent deletion so archived accessories are actually removed server-side and do not reappear after refresh.",
-    "Moves firearm permanent deletion to the same authoritative server-side lifecycle path.",
-    "Permanent delete endpoints require an administrator session and the Allow Permanent Deletion setting.",
-    "Cleans accessory assignment relationships when records are permanently deleted."
+    "Corrects Dashboard Ammunition by Caliber Top 6 so it ranks all calibers by actual on-hand quantity.",
+    "Refines Dashboard alert alignment, severity icon treatment, typography, values and chevrons to match the approved visual target.",
+    "Replaces the abstract Dashboard hero vector with the stronger static firearm-and-magazine showcase artwork.",
+    "Tightens View Collection button centering and Dashboard ammunition list alignment."
   ],
   "windows": {
     "packageUrl": "",
