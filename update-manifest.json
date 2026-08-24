@@ -1,11 +1,12 @@
 {
-  "version": "1.3.0-alpha.36",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.36",
+  "version": "1.3.0-alpha.37",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.37",
   "notes": [
-    "Fixes the Dashboard hero by removing the corrupt embedded WebP and using a known-valid bundled hero asset.",
-    "Corrects the Firearms by Type donut center selector so the count and Total label are visibly closer together.",
-    "Adds explicit hero image stacking/visibility rules so overlays cannot hide the artwork.",
-    "Retains the alpha35 firearm image upload activity indicator and media-processing feedback."
+    "Finishes the Dashboard layout with the bundled premium collection hero artwork.",
+    "Removes Recent Activity from the Dashboard and gives Collection Overview more room.",
+    "Expands Ammunition by Caliber to the top 8 calibers by rounds on hand.",
+    "Refines Dashboard spacing, alert-row alignment, donut-center spacing, and hero action placement.",
+    "Preserves Quick Actions and the alpha35 firearm image upload activity indicator and processing feedback."
   ],
   "windows": {
     "packageUrl": "",
