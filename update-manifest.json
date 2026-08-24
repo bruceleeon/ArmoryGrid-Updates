@@ -1,12 +1,12 @@
 {
-  "version": "1.3.0-alpha.30",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.30",
+  "version": "1.3.0-alpha.31",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.31",
   "notes": [
-    "Adds native Reports for collection, firearms, ammunition reserve, accessories, maintenance/range activity and insurance/value reporting with print/PDF-friendly output and CSV exports.",
-    "Adds Media Library derivative repair with original-image fallback, missing/corrupt derivative detection, rebuild progress/results and original/optimized/total storage accounting.",
-    "Retires normal legacy UI handoffs: Reports is native, frontend legacy links are removed and the /legacy route and legacy.html asset are removed.",
-    "Reports honor the active Viewing scope for firearm inventory and respect the serial-number privacy setting.",
-    "No destructive collection-data migration."
+    "Beta-readiness polish: increases typography throughout Settings/Admin screens, dialogs, forms, manufacturer management and administrative controls.",
+    "Guided Firearm Setup can create a missing firearm manufacturer in-place and continue without leaving the wizard.",
+    "Manufacturer Administration now saves through the dedicated manufacturer API so catalog edits remain authoritative.",
+    "Reports have explicit light and dark theme treatments for tabs, metrics, callouts, tables and print output.",
+    "Adds the Windows standalone beta-candidate build path while Docker remains the primary ArmoryGrid deployment."
   ],
   "windows": {
     "packageUrl": "",
