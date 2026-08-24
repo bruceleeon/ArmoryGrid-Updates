@@ -1,12 +1,11 @@
 {
-  "version": "1.3.0-alpha.31",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.31",
+  "version": "1.3.0-alpha.32",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.32",
   "notes": [
-    "Beta-readiness polish: increases typography throughout Settings/Admin screens, dialogs, forms, manufacturer management and administrative controls.",
-    "Guided Firearm Setup can create a missing firearm manufacturer in-place and continue without leaving the wizard.",
-    "Manufacturer Administration now saves through the dedicated manufacturer API so catalog edits remain authoritative.",
-    "Reports have explicit light and dark theme treatments for tabs, metrics, callouts, tables and print output.",
-    "Adds the Windows standalone beta-candidate build path while Docker remains the primary ArmoryGrid deployment."
+    "Fixes permanent deletion so archived accessories are actually removed server-side and do not reappear after refresh.",
+    "Moves firearm permanent deletion to the same authoritative server-side lifecycle path.",
+    "Permanent delete endpoints require an administrator session and the Allow Permanent Deletion setting.",
+    "Cleans accessory assignment relationships when records are permanently deleted."
   ],
   "windows": {
     "packageUrl": "",
