@@ -1,11 +1,11 @@
 {
-  "version": "1.3.0-alpha.35",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.35",
+  "version": "1.3.0-alpha.36",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.36",
   "notes": [
-    "Adds immediate visual feedback while firearm images upload and optimized derivatives are created.",
-    "Shows a local image preview, activity spinner and indeterminate progress treatment during upload processing.",
-    "Shows explicit upload success and error states instead of making users wait for the image to appear.",
-    "Includes the alpha34 embedded Dashboard hero artwork and tighter collection donut center spacing."
+    "Fixes the Dashboard hero by removing the corrupt embedded WebP and using a known-valid bundled hero asset.",
+    "Corrects the Firearms by Type donut center selector so the count and Total label are visibly closer together.",
+    "Adds explicit hero image stacking/visibility rules so overlays cannot hide the artwork.",
+    "Retains the alpha35 firearm image upload activity indicator and media-processing feedback."
   ],
   "windows": {
     "packageUrl": "",
