@@ -1,11 +1,11 @@
 {
-  "version": "1.3.0-alpha.44",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.44",
+  "version": "1.3.0-alpha.45",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.45",
   "notes": [
-    "Limits updater-generated pre-update rollback ZIPs to the newest two valid backups by default.",
-    "Automatically removes zero-byte, corrupt, and older updater backup artifacts after a successful backup is created.",
-    "Writes pre-update backups to a temporary file and validates the ZIP before atomically promoting it to a rollback backup.",
-    "Adds ARMORY_UPDATE_BACKUP_RETENTION for optional retention tuning while defaulting to two backups."
+    "Unifies every module hero action with the Dashboard View Collection button styling and bottom-right artwork placement.",
+    "Moves Firearms, Ammunition, Accessories, Range Sessions, Maintenance, Storage, Documents, and People Add or Log actions into their hero artwork while preserving each action and label.",
+    "Adds a shared HeroCta component so future module heroes inherit the canonical color, sizing, typography, radius, arrow, hover state, and placement.",
+    "Keeps hero calls to action accessible at responsive widths without changing hero artwork."
   ],
   "windows": {
     "packageUrl": "",
