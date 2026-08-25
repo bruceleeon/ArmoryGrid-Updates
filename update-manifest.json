@@ -1,11 +1,11 @@
 {
-  "version": "1.3.0-alpha.47",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.47",
+  "version": "1.3.0-alpha.48",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.48",
   "notes": [
-    "Corrects the Ammunition typography cascade so legacy high-specificity rules can no longer override the shared AIMS type scale.",
-    "Matches the Ammunition page title and description to Firearms at the top of the page.",
-    "Normalizes Ammunition panel headings, controls, reserve cards, tables, drawers, and form labels with specificity-safe shared values.",
-    "No destructive data migration."
+    "Adds a one-time first-run Create Administrator flow for fresh ArmoryGrid deployments instead of presenting an unusable login screen.",
+    "Uses backend setupRequired state so the same flow works in Docker and the Windows packaged build whenever the users table is empty.",
+    "Creates the first account atomically as Admin, signs it in immediately, and permanently closes anonymous setup after the first account exists.",
+    "Adds username/password confirmation and password-strength feedback while preserving normal login behavior for existing deployments."
   ],
   "windows": {
     "packageUrl": "",
