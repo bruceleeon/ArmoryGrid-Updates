@@ -1,13 +1,11 @@
 {
-  "version": "1.3.0-alpha.42",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.42",
+  "version": "1.3.0-alpha.43",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.43",
   "notes": [
-    "Replaces layered alpha-specific visual override stylesheets with one shared AIMS application UI system.",
-    "Standardizes page shell spacing, typography, controls, panels, metrics, tables, and responsive behavior across modules.",
-    "Uses one canonical hero and hero-action treatment so Dashboard, Firearms, and Ammunition share the same CTA styling.",
-    "Raises table, filter, card, metric, and supporting text sizes across modules to the readability established on Firearms.",
-    "Preserves the cinematic Dashboard, Firearms, and Ammunition hero artwork and the compact centered Reserve by Caliber cartridge treatment.",
-    "Keeps Firearms Cards/Table preference persistence and dynamic singular/plural firearm hero labels from alpha.41."
+    "Adds shared cinematic overview heroes to Accessories, Range Sessions, Maintenance, Storage, Documents, and People.",
+    "Uses the shared AIMS hero geometry and typography introduced in alpha.42 rather than page-specific hero styling.",
+    "Adds module overview metrics while preserving existing module workflows and controls.",
+    "Keeps Dashboard, Firearms, Ammunition, and the new module heroes on the same shared visual system."
   ],
   "windows": {
     "packageUrl": "",
