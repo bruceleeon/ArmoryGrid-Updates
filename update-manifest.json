@@ -1,11 +1,11 @@
 {
-  "version": "1.3.0-alpha.45",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.45",
+  "version": "1.3.0-alpha.46",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.46",
   "notes": [
-    "Unifies every module hero action with the Dashboard View Collection button styling and bottom-right artwork placement.",
-    "Moves Firearms, Ammunition, Accessories, Range Sessions, Maintenance, Storage, Documents, and People Add or Log actions into their hero artwork while preserving each action and label.",
-    "Adds a shared HeroCta component so future module heroes inherit the canonical color, sizing, typography, radius, arrow, hover state, and placement.",
-    "Keeps hero calls to action accessible at responsive widths without changing hero artwork."
+    "Normalizes Ammunition page typography against the shared AIMS type scale across headers, panels, controls, reserve cards, tables, drawers, and forms.",
+    "Removes conflicting legacy Ammunition font sizing while preserving the existing layout, data, and interactions.",
+    "Aligns Storage with the shared module page wrapper so its inconsistent Inventory eyebrow no longer appears above the page title.",
+    "No destructive data migration."
   ],
   "windows": {
     "packageUrl": "",
