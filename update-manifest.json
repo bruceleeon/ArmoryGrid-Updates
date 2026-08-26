@@ -1,10 +1,13 @@
 {
-  "version": "1.3.0-alpha.49",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.49",
+  "version": "1.3.0-alpha.51",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.51",
   "notes": [
-    "Fixes Windows restore failures caused by an unclosed temporary SQLite file descriptor (WinError 32).",
-    "Adds live restore progress with upload, validation, extraction, database, media, and finalization stages.",
-    "Persists restore diagnostics to the ArmoryGrid data logs directory and surfaces backend restore errors in the UI."
+    "Makes Guided Setup the default Add Firearm experience and improves wizard light-mode styling.",
+    "Adds caliber catalog management and inline caliber creation while adding a firearm.",
+    "Improves Settings navigation and adds safe removal workflows for people and manufacturers.",
+    "Adds safe ammunition product removal for cleaning up demo content.",
+    "Keeps Archived Items discoverable with restore and permanent-deletion guidance.",
+    "Includes the validated Windows large-backup restore reliability fixes and restore progress diagnostics."
   ],
   "windows": {
     "packageUrl": "",
