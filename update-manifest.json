@@ -1,13 +1,12 @@
 {
-  "version": "1.3.0-alpha.51",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.51",
+  "version": "1.3.0-alpha.52",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.52",
   "notes": [
-    "Makes Guided Setup the default Add Firearm experience and improves wizard light-mode styling.",
-    "Adds caliber catalog management and inline caliber creation while adding a firearm.",
-    "Improves Settings navigation and adds safe removal workflows for people and manufacturers.",
-    "Adds safe ammunition product removal for cleaning up demo content.",
-    "Keeps Archived Items discoverable with restore and permanent-deletion guidance.",
-    "Includes the validated Windows large-backup restore reliability fixes and restore progress diagnostics."
+    "Adds consistent safe delete/archive behavior across user-created records, including Storage, Sites, Locations, Documents, Calibers, Maintenance, People, Manufacturers, Ammunition lots/products, and Range Sessions.",
+    "Adds direct Sites & Locations administration under Settings with dependency-aware removal.",
+    "Links the Archived Items guidance directly to Settings → Advanced.",
+    "Refreshes Calibers administration styling for consistent light and dark mode presentation.",
+    "Uses server-side record deletion so deleted items stay deleted after reload instead of being reintroduced by state merge."
   ],
   "windows": {
     "packageUrl": "",
