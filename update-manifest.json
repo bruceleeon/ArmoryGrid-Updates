@@ -1,10 +1,10 @@
 {
-  "version": "1.3.0-alpha.54",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.54",
+  "version": "1.3.0-alpha.55",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.55",
   "notes": [
-    "Fixes the alpha.53 Settings dark-mode regression that incorrectly restyled Settings navigation and menu tiles.",
-    "Scopes dark-mode overrides to actual Administration content surfaces such as catalog rows, tables, forms, editors, drawers, dialogs, and destructive actions.",
-    "Preserves the targeted Administration dark-mode improvements without overriding the existing Settings menu design."
+    "Consolidates the application light and dark theme CSS into a single canonical theme system.",
+    "Removes the conflicting global Administration theme override and duplicate historical theme rules that caused cross-page regressions.",
+    "Restores consistent theme behavior across Firearms, Ammunition, Accessories, Storage, Settings, drawers, forms, tables, cards, and shared application surfaces."
   ],
   "windows": {
     "packageUrl": "",
