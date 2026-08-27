@@ -1,7 +1,9 @@
 {
-  "version": "1.3.0-alpha.59",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.59",
+  "version": "1.3.0-alpha.60",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.60",
   "notes": [
+    "Adds inline manufacturer creation directly to the Ammunition form.",
+    "Corrects Backup & Restore card, progress, and text surfaces in both light and dark mode.",
     "Adds desktop home-network controls, exact LAN links, system tray controls, and private-network firewall guidance.",
     "Adds recovery codes and configurable security audit retention without security questions.",
     "Adds selective backups with size estimates, progress, cancellation, validation, and automatic temporary-file cleanup.",
