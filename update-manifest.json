@@ -1,10 +1,10 @@
 {
-  "version": "1.3.0-alpha.55",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.55",
+  "version": "1.3.0-alpha.56",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.56",
   "notes": [
-    "Consolidates the application light and dark theme CSS into a single canonical theme system.",
-    "Removes the conflicting global Administration theme override and duplicate historical theme rules that caused cross-page regressions.",
-    "Restores consistent theme behavior across Firearms, Ammunition, Accessories, Storage, Settings, drawers, forms, tables, cards, and shared application surfaces."
+    "Improves light-mode readability across page titles, section headings, card text, labels, and shared content surfaces.",
+    "Fixes remaining light-mode contrast issues in Calibers, Manufacturers, and Sites & Locations administration screens.",
+    "Preserves the corrected dark-mode styling from alpha.55 while tightening theme consistency across the application."
   ],
   "windows": {
     "packageUrl": "",
