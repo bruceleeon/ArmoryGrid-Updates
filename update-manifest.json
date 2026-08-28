@@ -1,11 +1,11 @@
 {
-  "version": "1.3.0-alpha.63",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.63",
+  "version": "1.3.0-alpha.64",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.64",
   "notes": [
-    "Completes a major frontend modularization pass that moves application features into focused pages, modules, components, and shared services.",
-    "Adds unified, configurable firearm Record Completeness with required-field settings and consistent active-record handling.",
-    "Updates the Dashboard to count incomplete active firearms and adds an Incomplete Records report with required-field filters and direct Edit actions.",
-    "Includes audit fixes for completeness defaults, archived-record exclusions, settings persistence, and report field selection."
+    "Adds ammunition inventory Add, Take Out, Move, and Edit workflows with transaction history.",
+    "Fixes media association and orphan detection, including explicit unassign and reassign without deleting files, and adds shared upload progress across media surfaces.",
+    "Groups storage by Site, Location, and Storage Unit with roll-up totals and adds category-aware firearm and accessory placeholders.",
+    "Cleans up Users & Access navigation, improves cartridge alias mapping, and applies shared header, toggle, dashboard, image-surface, and row-divider consistency fixes."
   ],
   "windows": {
     "packageUrl": "",
