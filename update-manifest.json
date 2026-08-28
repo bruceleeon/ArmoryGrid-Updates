@@ -1,12 +1,11 @@
 {
-  "version": "1.3.0-alpha.62",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.62",
+  "version": "1.3.0-alpha.63",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.63",
   "notes": [
-    "Cleans up the sidebar by removing the redundant update-status card while keeping the version available in Settings.",
-    "Keeps archived people, firearms, calibers, and ammunition products out of new Range Session selectors while preserving historical session labels.",
-    "Adds safer person-deletion dependency checks so linked credentials and documents are not orphaned.",
-    "Adds consistent Back to Settings navigation to Appearance & Branding and Media Library.",
-    "Continues the alpha stabilization pass across lifecycle, navigation, release-channel, and UI consistency work."
+    "Completes a major frontend modularization pass that moves application features into focused pages, modules, components, and shared services.",
+    "Adds unified, configurable firearm Record Completeness with required-field settings and consistent active-record handling.",
+    "Updates the Dashboard to count incomplete active firearms and adds an Incomplete Records report with required-field filters and direct Edit actions.",
+    "Includes audit fixes for completeness defaults, archived-record exclusions, settings persistence, and report field selection."
   ],
   "windows": {
     "packageUrl": "",
