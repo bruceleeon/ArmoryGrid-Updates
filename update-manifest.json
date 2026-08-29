@@ -1,11 +1,11 @@
 {
-  "version": "1.3.0-alpha.64",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.64",
+  "version": "1.3.0-alpha.64.3",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.64.3",
   "notes": [
-    "Adds ammunition inventory Add, Take Out, Move, and Edit workflows with transaction history.",
-    "Fixes media association and orphan detection, including explicit unassign and reassign without deleting files, and adds shared upload progress across media surfaces.",
-    "Groups storage by Site, Location, and Storage Unit with roll-up totals and adds category-aware firearm and accessory placeholders.",
-    "Cleans up Users & Access navigation, improves cartridge alias mapping, and applies shared header, toggle, dashboard, image-surface, and row-divider consistency fixes."
+    "Replaces legacy cartridge PNG artwork with the new Aquila WebP caliber set while preserving the uploaded image bytes.",
+    "Adds exact caliber and alias mapping for pistol, revolver, rifle, and shotgun ammunition, with a generic fallback for future calibers.",
+    "Aligns Ammunition with the canonical AIMS module hero and restores the ammunition collection hero image.",
+    "Removes reserve-card BUILDING labels and changes coverage wording to percent of target while preserving all alpha.64.2 ammunition workflows."
   ],
   "windows": {
     "packageUrl": "",
