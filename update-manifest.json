@@ -1,11 +1,11 @@
 {
-  "version": "1.3.0-alpha.64.3",
-  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.64.3",
+  "version": "1.3.0-alpha.64.4",
+  "containerImage": "ghcr.io/bruceleeon/armory-grid:1.3.0-alpha.64.4",
   "notes": [
-    "Replaces legacy cartridge PNG artwork with the new Aquila WebP caliber set while preserving the uploaded image bytes.",
-    "Adds exact caliber and alias mapping for pistol, revolver, rifle, and shotgun ammunition, with a generic fallback for future calibers.",
-    "Aligns Ammunition with the canonical AIMS module hero and restores the ammunition collection hero image.",
-    "Removes reserve-card BUILDING labels and changes coverage wording to percent of target while preserving all alpha.64.2 ammunition workflows."
+    "Makes the hero the primary page identity across Accessories, Firearms, Storage, Documents, Maintenance, Range Sessions, and People.",
+    "Moves Accessories archive and compatibility management into the hero while keeping Add Accessory primary, and preserves Firearms import in its hero.",
+    "Removes the reserve-card status marker so the progress bar is the sole reserve indicator.",
+    "Displays the existing Aquila WebP cartridge artwork in bounded, centered viewports without clipping or modifying the source assets."
   ],
   "windows": {
     "packageUrl": "",
